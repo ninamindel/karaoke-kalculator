@@ -1,4 +1,4 @@
-title: "Osprey Delight Demo"
+title: "Karaoke Kalculator"
 baseURL: "https://example.com"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight/v5"
@@ -19,24 +19,24 @@ module:
 ## Generic theme parameters:
 Params:
   author:
-    name: "kdevo"
-  description: "Osprey Delight: Example Site"
+    name: "Nina Mindel"
+  description: "Karaoke Kalculator: QEA3 Final"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "osprey-delight.png"
+  logoBig: "karaokekalc_icon.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  logoSmall: "favicon.png"
+  logoSmall: "karaokekalc_small.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   #background: "background.jpg"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
-  opengraphImage: "/images/osprey-delight.png"
+  opengraphImage: "karaokekalc.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
-  favicon: "favicon.png"
+  favicon: "karaokekalc_icon.png"
 
   # theme your site by choosing one of the themes under assets/sass/themes:
   #   - delight is the light version of osprey-delight
@@ -48,7 +48,7 @@ Params:
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# Welcome!\n ## This is Osprey Delight{cursor}"
+  mdTagline: "# Welcome!\n ## This is Karaoke Kalculator{cursor}"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
@@ -61,22 +61,22 @@ Params:
   # credit to the theme. If you want to support the theme by please leave this in, it's kept very tiny and short.
   # credit: true
 
-## Social links in footer:
-##   The type specifies the icon to use. For more information, see: 
-##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
-  Social:
-  - type: twitter # references the icon to use
-    url: ""
-  - type: linkedin 
-    url: ""
-  - type: github
-    url: "https://github.com/hugo-mods/"
-  - type: heart
-    url: "https://github.com/sponsors/kdevo"
-  - type: stackoverflow  
-    url: ""
-  - type: spotify
-    url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
+### Social links in footer:
+###   The type specifies the icon to use. For more information, see: 
+###   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
+#  Social:
+#  - type: twitter # references the icon to use
+#    url: ""
+#  - type: linkedin 
+#    url: ""
+#  - type: github
+#    url: "https://github.com/hugo-mods/"
+#  - type: heart
+#    url: "https://github.com/sponsors/kdevo"
+#  - type: stackoverflow  
+#    url: ""
+#  - type: spotify
+#    url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
 
 ## Additional theme features:
   Feat:
@@ -141,18 +141,18 @@ Menu:
       url: "/#about"
       # weight controls the order of the menu items.
       weight: 1
-    - name: "Work"
+    - name: "Method"
       identifier: gallery
-      url: "/#work"
+      url: "/#method"
       weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
+    - name: "Results"
+      identifier: results
+      url: "/#results"
       weight: 3
-    - name: "Contact"
-      identifier: contact
-      url: "/#contact"
+    - name: "Team"
+      identifier: team
       weight: 4
+
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
