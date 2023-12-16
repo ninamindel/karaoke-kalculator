@@ -1,6 +1,6 @@
 ---
-weight: 10
-date: "2017-05-12T22:25:02-07:00"
+weight: 4
+date: ""
 title: "Pitch"
 image: "hugo.png"
 alt: "Hugo - a fast and modern static website engine"

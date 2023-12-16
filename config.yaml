@@ -107,7 +107,7 @@ Params:
       resize: "600x"
 
     Gallery:
-      resize: "600x"
+      resize: "900x"
 
     Background:
       resize: "1920x"

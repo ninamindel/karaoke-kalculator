@@ -1,15 +1,11 @@
 ---
-weight: 30
-date: "2017-05-15T20:00:16-07:00"
-title: "Toma Nistor"
+weight: 3
+date: ""
+title: "Vocal Quality/Noise"
 image: "toma-nistor.png"
-alt: "Toma Nistor"
+alt: ""
 color: "#212121"
-buttons:
-  - i18n: view
-    url: "https://tomanistor.com"
-  - i18n: code
-    url: "https://github.com/tomanistor/tomanistor.com"
 ---
-
-Author of the original Osprey theme.
+Next, we calculated the noise that comes from dissimilarity and found how many coeffiecients are greater than x (we used .4)
+Then, we divided that number by some number (we choose 6000) to find vocal quality and then subtract that from one to find the percentage similar.
+It is important to note that some amount of noise comes from how we recorded it, but most of it is truly from dissimilarity

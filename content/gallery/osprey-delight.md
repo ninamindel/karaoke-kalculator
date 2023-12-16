@@ -1,8 +1,8 @@
 ---
-weight: 1 
-date: "2019-09-18T21:57:17-07:00"
-title: "Osprey Delight"
-image: "osprey-delight-logo.png"
+weight: 10
+date: ""
+title: "Signals"
+image: "camden.png"
 color: "#ffffff"
 type: "github"
 github:
